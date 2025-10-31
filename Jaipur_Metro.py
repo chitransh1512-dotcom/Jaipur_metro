@@ -421,7 +421,7 @@ def main():
 
             print("\nShortest Path:")
             path = metro_graph.shortest_path(t1.pick_up_station, t1.drop_off_station)
-            print(" → ".join(path))
+            print(" -> ".join(path))
 
             print("\nTravel Instructions:")
             for step in metro_graph.get_instructions(t1.pick_up_station, t1.drop_off_station):
